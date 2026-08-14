@@ -1,11 +1,13 @@
-# Electronic_Devices_Simulator-in_CPP
-Semester end final project highlighting OOP in C++ and SFML
+# Electronic Devices Simulator in C++
 
-This project simulates fundamental Electronic devices with ideal properties, features AC signal workings and a fully working partly tunable (time div and voltage) Oscilloscope. And uses Modified Nodal Analysis to measure voltages and currents and also features ammeter and voltmeter.
+Semester end final project highlighting OOP in C++ and SFML.
 
-To run the code build it first (Ctrl + shift + B in VSC) and type ./bin/main.exe in powershell (If u download the release folder)
+This project simulates fundamental electronic devices with ideal properties, features AC signal workings, and includes a fully working partly-tunable (time div and voltage) Oscilloscope. It uses Modified Nodal Analysis (MNA) to measure voltages and currents, and features an ammeter and voltmeter.
 
-The components can be searched on with any of their keywords (Eg voltage for voltage source even though its keyword is V-SRC 
-the description contains the word "Voltage").
+### How to Run
+1. Build the project (`Ctrl + Shift + B` in VS Code).
+2. Run `./bin/main.exe` in PowerShell (if using the release build folder).
 
-To know all components present, type "all" in search bar to show all components present.
+### Features & Usage
+* **Search Components:** Search for components using keywords (e.g., searching "voltage" finds `V-SRC` because its description contains the word "Voltage").
+* **View All Components:** Type `"all"` in the search bar to display all available components.
