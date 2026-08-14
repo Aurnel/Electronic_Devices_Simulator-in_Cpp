@@ -7,7 +7,5 @@ This project simulates fundamental electronic devices with ideal properties, fea
 ### How to Run
 1. Build the project (`Ctrl + Shift + B` in VS Code).
 2. Run `./bin/main.exe` in PowerShell (if using the release build folder).
-
-### Features & Usage
 * **Search Components:** Search for components using keywords (e.g., searching "voltage" finds `V-SRC` because its description contains the word "Voltage").
 * **View All Components:** Type `"all"` in the search bar to display all available components.
